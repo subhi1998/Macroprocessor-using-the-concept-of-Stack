@@ -1,0 +1,14 @@
+START
+A 1,M
+L 1,N
+ST 1,A
+A 1,A
+P 1,Z
+END
+START
+A 1,M
+L 1,N
+ST 1,A
+A 1,A
+P 1,Z
+END

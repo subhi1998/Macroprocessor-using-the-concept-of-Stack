@@ -1,0 +1,19 @@
+MACRO
+ABC &A,&B
+L 1,&B
+ST 1,&A
+MEND
+MACRO
+XYZ &X,&Y,&Z
+A 1,&X
+ABC &Y,&Z
+A 1,&Y
+MACRO
+&Z &X
+P 1,&X
+MEND
+MEND
+START
+XYZ M,A,N
+N Z
+END
